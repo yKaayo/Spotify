@@ -38,4 +38,11 @@
   "devDependencies": {
     "tailwindcss": "^3.4.13"
   }
+  {
+    "homepage": "https://yKaayo.github.io/Spotify",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+  }
 }
