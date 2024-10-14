@@ -5,9 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      gridTemplateColumns: {
-        'footer': '1fr 17fr',
-      },
       minHeight: {
         'dvh-16px': '100dvh - 16px',
       },
